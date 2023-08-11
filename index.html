@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>TypeScript Pokedex</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body :class="{ blur: isGameStarted }">
+    <main>
+      <h1>Multiplikation med Pokemon</h1>
+    
+      <div id="app">
+        <div class="form" id="pokemon1"></br>
+        </div>
+      </div>
+      <h2 class="catchedPokeText">Pokemons du fångat...</h2>
+      <div id="allWinningPokemonContainer">
+        <div id="pokemonball"></div>
+      </div>
+      
+      <label for="calc-select"></label>
+    
+
+      <ul id= "slideContainer">
+          <li id = "return"></li>
+      </ul>     
+      <div id="popupContainer" class="popup-container">
+        <div class="popup-content">
+          <p id="popupMessage"></p>
+          <button id="closeBtn" class="close-btn">Close</button>
+        </div>
+      </div>
+     
+     
+
+      <!-- STARTA & SE RESULTAT -->
+      <button class="start">Starta spelet</button>
+      <button class="resultat">Mitt resultat</button>
+
+      <div id="special"></div>
+      
+   
+    </main>
+  </body>
+</html>
+
