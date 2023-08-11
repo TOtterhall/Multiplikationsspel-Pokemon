@@ -163,8 +163,8 @@ function showMultiplicationTable(pokemonId) {
             <td></td>
             <td></td>
             <td>
-              <button id="submitBtn" type="submit">Submit</button>
-              <button id="close-table" class="close-table">Close</button>
+              <button id="submitBtn" type="submit">Klar</button>
+              <button id="close-table" class="close-table">Stäng</button>
             </td>
           </tr>
           </table>
